@@ -1,0 +1,39 @@
+.text-pull-right {
+  text-align: right;
+}
+
+.text-pull-center {
+  text-align: center;
+}
+.text-pull-left {
+  text-align: left;
+}
+
+.header-inner,
+.wrapper,
+.footer-inner {
+  margin: 0 auto;
+  padding: 10px;
+  width: 940px;
+}
+
+.wrapper {
+  margin: 30px auto;
+  padding: 0;
+}
+
+.header-inner {
+  padding-bottom: 0;
+}
+
+#main {
+  min-height: 400px;
+}
+
+#main .span11 {
+  padding: 20px 40px 10px 40px;
+}
+
+.main-content {
+  margin-bottom: 120px;
+}
