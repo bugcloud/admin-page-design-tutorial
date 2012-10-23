@@ -17,8 +17,21 @@
   width: 940px;
 }
 
+.wrapper {
+  margin: 30px auto;
+  padding: 0;
+}
+
+.header-inner {
+  padding-bottom: 0;
+}
+
 #main {
   min-height: 400px;
+}
+
+#main .span11 {
+  padding: 20px 40px 10px 40px;
 }
 
 .main-content {
