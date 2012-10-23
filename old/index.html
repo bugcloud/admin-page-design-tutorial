@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="管理画面のデザインチュートリアルです。" />
+    <meta name="keywords" content="Webデザイン,管理画面,非デザイナー,bootstrap" />
+    <title>管理画面デザイン チュートリアル</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <div class="row">
+          <div class="span12">
+            <h1>
+              <a href="#" class="brand">管理画面デザイン チュートリアル</a>
+            </h1>
+            <div class="navbar">
+              <div class="navbar-inner">
+                <ul class="nav">
+                  <li class="active"><a href="#">モデル１</a></li>
+                  <li><a href="#">２つめの管理モデル</a></li>
+                  <li><a href="#">Model 3rd</a></li>
+                </ul>
+                <ul class="nav pull-right">
+                  <li class="divider-vertical"></li>
+                  <li><a href="#">ログアウト</a></li>
+                </ul>
+              <!-- /.navbar-inner --></div>
+            <!-- /.navbar --></div>
+          <!-- /.span12 --></div>
+        <!-- /.row --></div>
+      <!-- /.header-inner --></div>
+    </header>
+
+    <div id="main" class="wrapper">
+      <div class="row">
+        <div class="span12">
+
+          <ul class="nav nav-tabs">
+            <li class="active">
+              <a href="#">一覧</a>
+            </li>
+            <li><a href="#">新規登録</a></li>
+            <li><a href="#">詳細</a></li>
+          <!-- /.nav.nav-tabs --></ul>
+
+          <div class="main-content">
+            <h2>モデル１の一覧</h2>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>名前</th>
+                  <th>住所</th>
+                  <th>TEL</th>
+                  <th>メールアドレス</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>桃太郎</td>
+                  <td>あるところ</td>
+                  <td>090-xxxx-xxxx</td>
+                  <td>momo@donbura.co.jp</td>
+                  <td>
+                    <span>
+                      <a href="#">詳細</a>
+                      <a href="#">編集</a>
+                      <a href="#">削除</a>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>おじいさん</td>
+                  <td>あるところ</td>
+                  <td>080-xxxx-xxxx</td>
+                  <td>ojii@donbura.co.jp</td>
+                  <td>
+                    <span>
+                      <a href="#">詳細</a>
+                      <a href="#">編集</a>
+                      <a href="#">削除</a>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>おばあさん</td>
+                  <td>あるところ</td>
+                  <td>050-xxxx-xxxx</td>
+                  <td>obaa@donbura.co.jp</td>
+                  <td>
+                    <span>
+                      <a href="#">詳細</a>
+                      <a href="#">編集</a>
+                      <a href="#">削除</a>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>いぬ</td>
+                  <td>道</td>
+                  <td>090-xxxx-xxxx</td>
+                  <td>one@donbura.co.jp</td>
+                  <td>
+                    <span>
+                      <a href="#">詳細</a>
+                      <a href="#">編集</a>
+                      <a href="#">削除</a>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>オニ</td>
+                  <td>鬼ヶ島</td>
+                  <td>070-xxxx-xxxx</td>
+                  <td>onichan@gashima.com</td>
+                  <td>
+                    <span>
+                      <a href="#">詳細</a>
+                      <a href="#">編集</a>
+                      <a href="#">削除</a>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="pager">
+              <li class="previous">
+                <a href="#">&larr; 前へ</a>
+              </li>
+              <li class="next">
+                <a href="#">次へ &rarr;</a>
+              </li>
+            <!-- /.pager --></ul>
+          <!-- /.main-content --></div>
+
+          <div class="main-content">
+            <div class="row">
+              <div class="span4">
+                <h2>モデル１０の詳細</h2>
+                <dl>
+                  <dt>名前</dt>
+                  <dd>さる</dd>
+                  <dt>住所</dt>
+                  <dd>通り道</dd>
+                  <dt>TEL</dt>
+                  <dd>03-xxxx-xxxx</dd>
+                  <dt>メールアドレス</dt>
+                  <dd>oh-saru@nikko.co.jp</dd>
+                </dl>
+              <!-- /.span4 --></div>
+
+              <div class="span4">
+                <h2>モデル１１の詳細</h2>
+                <dl>
+                  <dt>名前</dt>
+                  <dd>きじ</dd>
+                  <dt>住所</dt>
+                  <dd>通り道</dd>
+                  <dt>TEL</dt>
+                  <dd>045-xxx-xxxx</dd>
+                  <dt>メールアドレス</dt>
+                  <dd>oh-kiji@bird.co.jp</dd>
+                </dl>
+              <!-- /.span4 --></div>
+
+              <div class="span4">
+                <h2>モデル１２の詳細</h2>
+                <dl>
+                  <dt>名前</dt>
+                  <dd>もも</dd>
+                  <dt>住所</dt>
+                  <dd>川</dd>
+                  <dt>TEL</dt>
+                  <dd>092-xxx-xxxx</dd>
+                  <dt>メールアドレス</dt>
+                  <dd>pichipichi@pea.ch</dd>
+                </dl>
+              <!-- /.span4 --></div>
+            <!-- /.row --></div>
+          <!-- /.main-content --></div>
+
+
+          <div class="main-content">
+            <h2>モデルの新規登録</h2>
+            <form class="form-horizontal">
+              <legend>新しいモデル</legend>
+
+              <div class="control-group">
+                <label class="control-label" for"input-name">名前</label>
+                <div class="controls">
+                  <input type="text" id="input-name" placeholder="例) サラリーマン　桃太郎">
+                  <span class="label label-important"><i class="icon-exclamation-sign icon-white"></i>必須項目</span>
+                  <span class="help-block">お名前を入力してください。</span>
+                </div>
+              <!-- /.control-group --></div>
+
+              <div class="control-group">
+                <label class="control-label" for"input-address">住所</label>
+                <div class="controls">
+                  <input type="text" id="input-address" placeholder="例) 東京都港区 台場2-4-8">
+                  <span class="help-block">住所を入力してください。</span>
+                </div>
+              <!-- /.control-group --></div>
+
+              <div class="control-group">
+                <label class="control-label" for"input-tel">TEL</label>
+                <div class="controls">
+                  <input type="tel" id="input-tel" placeholder="例) 03-○○○○-○○○○">
+                  <span class="help-block">お電話番号を入力してください。</span>
+                </div>
+              <!-- /.control-group --></div>
+
+              <div class="control-group">
+                <label class="control-label" for"input-email">メールアドレス</label>
+                <div class="controls">
+                  <input type="email" id="input-email" placeholder="例) oh-my-taro@momo.com">
+                  <span class="label label-important"><i class="icon-exclamation-sign icon-white"></i>必須項目</span>
+                  <span class="help-block">メールアドレスを入力してください。</span>
+                </div>
+              <!-- /.control-group --></div>
+
+              <div class="control-group">
+                <div class="controls">
+                  <button type="submit" class="btn btn-primary">新規登録</button>
+                </div>
+              <!-- /.control-group --></div>
+            </form>
+          <!-- /.main-content --></div>
+
+        <!-- /.span12 --></div>
+      <!-- /.row --></div>
+    <!-- /#main.wrapper --></div>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="row">
+          <div class="span12">
+            <p class="text-pull-center">Copyright© 2012 管理画面デザイン チュートリアル</p>
+          </div>
+        <!-- /.row --></div>
+      <!-- /.footer-inner --></div>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="js/jquery.pageScrollZ.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/site.js"></script>
+  </body>
+</html>

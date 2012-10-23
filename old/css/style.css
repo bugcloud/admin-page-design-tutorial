@@ -1,0 +1,26 @@
+.text-pull-right {
+  text-align: right;
+}
+
+.text-pull-center {
+  text-align: center;
+}
+.text-pull-left {
+  text-align: left;
+}
+
+.header-inner,
+.wrapper,
+.footer-inner {
+  margin: 0 auto;
+  padding: 10px;
+  width: 940px;
+}
+
+#main {
+  min-height: 400px;
+}
+
+.main-content {
+  margin-bottom: 120px;
+}
