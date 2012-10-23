@@ -11,6 +11,11 @@ hr {
   text-decoration: underline;
 }
 
+.table thead th {
+  background: #cbe3e7;
+  color: #70696b;
+}
+
 /* <== Override bootstrap */
 
 .text-pull-right {
@@ -54,6 +59,14 @@ hr {
 
 .main-content {
   margin-bottom: 120px;
+}
+
+.main-content dt {
+  font-size: 120%;
+}
+
+.main-content dd {
+  margin-bottom: 1em;
 }
 
 header {
