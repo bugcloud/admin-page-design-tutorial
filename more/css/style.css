@@ -19,7 +19,7 @@ hr {
 /* <== Override bootstrap */
 
 body {
-  background: url(../img/bg-main.png) repeat left top #e3e3e3;
+  background: url(../img/bg-main.png) repeat left top #f8f8f8;
 }
 
 .text-pull-right {
